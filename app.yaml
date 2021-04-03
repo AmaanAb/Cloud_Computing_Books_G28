@@ -1,5 +1,10 @@
 #app.yaml
 runtime: python37
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+ python_version: 3
 
 env_variables:
   CLOUD_SQL_USERNAME: booksdb
