@@ -1,0 +1,8 @@
+#app.yaml
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: booksdb
+  CLOUD_SQL_PASSWORD: abcd1234
+  CLOUD_SQL_DATABASE_NAME: booksdb
+  CLOUD_SQL_CONNECTION_NAME: united-time-307112:europe-west2:booksdb

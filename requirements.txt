@@ -1,0 +1,15 @@
+cs50==2.4.1
+Flask==1.0.2
+Flask-JSGlue==0.3.1
+Flask-Session==0.3.1
+Flask-SQLAlchemy==2.3.2
+gunicorn==19.9.0
+Jinja2==2.10
+MarkupSafe==1.1.1
+requests==2.19.1
+SQLAlchemy==1.2.9
+sqlparse==0.2.4
+virtualenv==16.0.0
+Werkzeug==0.14.1
+PyMySQL==0.7.2
+flask-bcrypt
